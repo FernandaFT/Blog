@@ -1,0 +1,24 @@
+.AuhtorInfo {
+    padding: 2rem 2rem;
+}
+h1 {
+    font: $font-family-base-bold-weight 37px $font-family-base;
+}
+.nameAuthor {
+	text-align: center;
+    font: $font-family-base-bold-weight 40px $font-family-base;
+}
+
+.personalInfo {
+	text-align: justify;
+	font: $font-family-base-medium-weight 20px $font-family-base;
+}
+.linkAuthor{
+	color: $primary-color;
+}
+.linkAuthor:hover{
+	color: $hover-secondary-color;
+}
+.socialMediaAuthor {
+	text-align: center;
+}

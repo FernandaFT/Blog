@@ -1,0 +1,32 @@
+.Related {
+    display: flex;
+	background-color: $base-color;
+	padding: 1rem;
+}
+.relatedPost {
+    width: 48%;
+    margin-left: 0;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+.RP {
+	margin-left: 1rem;
+}
+.time2 {
+	font: $font-family-base-medium-weight 13px $font-family-base;
+	margin-top: 0;
+}
+blockquote {
+    margin: 1rem 0 0 0;
+    text-align: justify;
+    font:  $font-family-base-light-weight 15px $font-family-base;
+}
+.tittle4 {
+    font:  $font-family-contrast-regular-weight 20px $font-family-contrast;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #000;
+}
+.imageR {
+    cursor: pointer;
+}

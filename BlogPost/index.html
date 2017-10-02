@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/Logo1.ico">
+  <!-- pagina "convertico" para crear los iconos en ico -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,500,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <title>BlogPost</title>
+</head>
+<body>
+	<header>
+        <div class="nav-container">
+    		<div class="brand">
+    		  <a href="index.html"><img class="logo" src="images/logo_02.ico" alt="Logo BlogFernanda"></a>
+    		</div>
+    		<nav class="menu">
+    		  <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+    		  <ul class="nav-list ul-list">
+    		    <li class="li-Name animation-li">
+    		      <a class="anchorMenu" href="#!">Home</a>
+    		    </li>
+    		    <li class="li-Name animation-li">
+    		      <a class="anchorMenu" href="#!">About Me</a>
+    		    </li>
+    		    <li class="li-Name animation-li">
+    		      <a class="anchorMenu" href="#!">Blog</a>
+    		    </li>
+    		    <li class="li-Name animation-li">
+    		      <a class="anchorMenu" href="#!">Contact</a>
+    		    </li>
+    		  </ul>
+    		</nav>
+  		</div>
+
+	</header>
+
+	<main>
+
+		<img class="banner" src="images/acdc.png" alt="First ad of Iron Maiden">
+		<!-- Section of information of post -->
+		<section class="AuhtorInfo">
+			<h1>Author</h1>
+			<img class="authorImg" src="images/AndrewJ.jpg" alt="Author photo">
+			<div>
+				<h2 class="nameAuthor">Andrew Johnson</h2>
+				<div class="socialMediaAuthor">
+					<ul>
+ 						<li class="links"><a href="https://twitter.com/Aetherpoint"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+          				<li class="links"><a href="http://www.aetherpoint.com/writing/"><i class="fa fa-bookmark fa-2x" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<p class="personalInfo">Andrew Johnson is a designer residing in the Boston area. A bit of a rogue, he's spent time learning at the Filament Group, the MIT Mobile Experience Lab, Font Bureau, and Tank Design. Andrew can be found writing electronic music, on <a class="linkAuthor" href="http://www.aetherpoint.com/writing/">his blog</a>, or outdoors. He tweets under the name <a class="linkAuthor" href="https://twitter.com/Aetherpoint">@aetherpoint.</a></p>
+			</div>
+
+		</section>
+		<!-- End the Section -->
+		
+		<!-- Section of Blog -->
+		<section class="postBlog">
+			<h3>User Interfaces for Variable Fonts</h3>
+			<p class="time">August 25, 2017</p>
+			<div>
+			 	<p class="BlogText">The tools we design with have a unique effect on the way we work, constraining and empowering us while we explore, examine and create. Variable fonts give us a new, wide open typographic space with which to work. Instead of prescribing value to individual UI elements in a vacuum, we should take a hybrid and calculated approach to variable font interfaces.</p>
+
+			 	<div class="imageFont">
+			 		<img src="images/bg_1.png" alt="support image">
+			 	</div>
+			</div>
+			<div>
+				<h4 class="subtittleBlog">ENABLING VARIABLE FONTS</h4>
+				<p class="BlogText">Within our design tools, variable fonts present a unique challenge, allowing users to select and change different properties of the typeface that are exposed by the typeface designer. These changes occur along an interpolation axis—or a line that reflects variation values of a font:</p>
+				 <div class="video-container">
+        			<iframe width="560" height="315" src="https://www.youtube.com/embed/RgbJwWonHTk" frameborder="0" allowfullscreen></iframe>
+      			</div>
+			</div>
+			<div>
+				<p class="BlogText">A variable font can have any number of axes, but these can generally be reduced down to a few commonly used axes mostly likely to be used for Responsive Design. These default axes are called registered axes in the spec. Each one has a different set of use cases:</p>
+
+				<ul class="BlogText">
+					<li><strong>Font Weight</strong> – (wght): For adapting font weight to the container size, the weight of other elements, changes to hierarchy and screen resolution.</li><br>
+					<li><strong>Font Width</strong> – (wdth): For fitting the width of the typeface to the width of a container.</li><br>
+					<li><strong>Font Italicization</strong> – (ital): For changing how italicised the type is.</li><br>
+					<li><strong>Font Slant</strong> – (slnt): For changing how oblique the type is.</li><br>
+					<li><strong>Font Optical size</strong> – (opsz): For adapting to container size, font size and adjusting hierarchy and typographic color.</li>
+				</ul>
+				<p class="BlogText">These axes take advantage of much of the layout-based adaption variable fonts provide. Some of these concepts are best illustrated in <a class="linkInfo" href="https://twitter.com/letterror"> Erik Van Blokland’s</a>,<a class="linkInfo" href="http://letterror.com/dev/mathshapes/"> responsive lettering</a></p>
+			</div>
+			<div>
+				<ul>
+ 					<li class="links"><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+          			<li class="links"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</section>
+		<!-- End the Sectioncol -->
+		
+		<!-- Section of Related Posts -->
+		<section class="Related clearfix">
+			<div class="relatedPost">
+				<div>
+					<a class="tittle4" href="#"><h4 class="subtittleR">Los 3 compiladores de css mas usados</h4></a>
+					<p class="time2">5 Marzo 2017</p>
+					<a class="imageR" href="#"><img src="images/image1.jpg" alt="image1"></a>
+					<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aliquam aperiam at a.</blockquote>
+
+				</div>
+			</div>
+			<div class="relatedPost RP">
+				<div>
+					<a class="tittle4" href="#"><h4 class="subtittleR">Los 3 compiladores de css mas usados</h4></a>
+					<p class="time2">5 Marzo 2017</p>
+					<a class="imageR" href="#"><img src="images/image2.jpg" alt="image1"></a>
+					<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aliquam aperiam at a.</blockquote>
+				</div>
+			</div>		
+		</section>
+		<!-- End the Section -->
+		<img src="images/RHCP-BANNER.jpg" alt="Second ad of RHCP">
+	</main>
+	<footer>
+		<div>
+		<!-- Logo -->
+			<div class="imgFooter">
+				<a href="index.html" class="logo"><img class="logoFooter" src="images/logo_02.ico" alt="Logo BlogFernanda"></a>
+			</div>
+		<!-- End tag logo -->
+			<div class="copy">
+      			<p class="copyright">© Fernanda FT 2017</p>
+   			</div>
+		</div>
+	<!-- Second Menu -->
+      <div class="footer__section footer__menu">
+        <ul class="secondMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+	</footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
